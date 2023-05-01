@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML</title>
+</head>
+<body>
+    <H1>Inserindo videos hospedados localmente</H1>
+    <P>ESTE VÍDEO ESTÁ HOSPEDADO DENTRO DO MEU PROPRIO SERVIDOR</P>
+    <!--<video src="midea/meu-video1.mp4" width="500" controls></video> esta é a forma simples-->
+    <video width="500" poster="imagens/limoes-capa.png" controls>
+        
+        <source src="midea/meu-video1.mp4" type="video/mp4">
+        <source src="midea/meu-video.m4v" type="video/mp4">
+        <source src="midea/Meu-Video.webm" type="video/webm">
+        <source src="midea/meu-video.ogv" type="video/ogg">
+        
+        <p>Seu navegador nÃO É COMPATIVEL COM A REPRODUÇÃO DE VÍDEOS</p>
+
+
+    </video>
+    <h1>Insirindo videos do youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>inserindo videos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/718558198?h=4bb86245d6" width="500" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <p><a href="https://vimeo.com/718558198">Making Art in America, 2020-2021</a> from <a href="https://vimeo.com/wangie">Angie Wang</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>

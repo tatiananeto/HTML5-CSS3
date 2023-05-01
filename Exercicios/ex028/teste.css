@@ -1,0 +1,45 @@
+@keyframes k19-animacao {
+     from {
+        width : 10 px ;
+    }
+    
+    to {
+     width : 100 px ;
+    }
+}
+
+@keyframes animacao1 {
+    from {
+        width : 10 px ;
+    }
+    
+    to {
+        width : 70 px ;
+    }
+}
+
+@keyframes animacao2 {
+    from {
+        width : 10 px ;
+    }
+    
+    to {
+        width : 70 px ;
+    }
+}
+
+div{
+    animation-name : k19-animacao ;
+    animation-duration : 3s ;
+}
+
+@keyframes k19-animacao {
+    from {
+        width : 10 px ;
+    }
+
+    to {
+        width : 100 px ;
+    }
+}
+    

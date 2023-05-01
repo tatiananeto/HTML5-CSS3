@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'love girls' ;
+            src: url('fontes/Filxgirl.TTF') format(truetype);
+            font-weight: normal;
+            font-style: normal;
+            /*
+                tipos de formatos()
+                    -opentype (usamos quando é o formato OTF)
+                    -truetype (usamos quando é o formato TTF)
+                    -embedded-opentype
+                    -truetype-aat(Apple Advanced Typografhy)
+                    -svg
+
+            */
+        }
+        body{
+          font-family: Georgia, 'Times New Roman', Times, serif; 
+        }
+
+        h1{
+          font-family:'love girls', sans-serif ;  
+          font-size: 3em;
+          text-shadow: 0 0  10px #ff0000;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi quo ratione sed saepe, eos maxime incidunt ullam veniam rerum odio voluptates non quasi perspiciatis repellat cumque unde, dolorum doloremque?</p>
+</body>
+</html>

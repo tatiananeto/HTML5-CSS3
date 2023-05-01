@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+  <h1>Usando links externos</h1><!--link exeterno é um link que aponta para um site que não e meu usamos a tag a que significa ancora-->  
+  <p>Voce pode acessar o meu <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositorio publico no GitHub</a></p><!-- quando eu colocar um site que não é meu o ideal é abrir esse link ou site em um anova aba usando  target="blank" rel="external"-->
+  <p>voce tambem pose acessar o meu canal <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">no canal gratuito do youtube</a></p>
+  <h1>Usando links internos</h1><!--faz a relação com outra pagina que esta dentro do nosso servidor e diz respeito a nossa propria pagina-->
+  <p>Está é a primeira página do site. Se você quiser, pode acessar também a minha <a href="page002.html" rel="next" target="_self">Segunda página</a></p><!-- rel="next" é para mostar a proxima pagina de navegação é um sistema de navegação-->
+  <p>Voce tambem pode acessar a nossa <a href="noticias/page003.html" rel="next" target="_self">pagina de nóticia</a></p><!--target="self" vai permanecer na mesma pagina é usado para os links internos. para criar um link em uma pagina que esta em outra pagina devo colocar o caminho da pasta aonde esta a pagina que eu quero-->
+  <h1>Linkes para download</h1>
+  <ul>
+    <li><a href="livro/10 - Ligações em toda parte.pdf" download="10 - Ligações em toda parte.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+    <li><a href="livro/10 - Ligações em toda parte.rar" download="10 - Ligações em toda parte.rar" type="application/rar">Livro compactado em ZIP</a></li>
+  </ul>
+</body>
+</html>

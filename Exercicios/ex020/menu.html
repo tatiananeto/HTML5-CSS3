@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+
+     
+        div{
+            display: inline-block;
+           background-color: lightgray;
+           border: 1px solid black ;
+           text-align: center; 
+           padding: 10px;
+           width: 100px;
+           margin: 10px;
+           border-radius: 20px;
+           float:right;
+        }
+
+        p{
+            text-align:justify;
+            box-sizing: content-box;
+            word-wrap: break-word;
+            padding: 10px;
+        }
+        
+        aside{
+            border: 1px solid black ;
+            height: 200px;
+            width: 300px;
+            position: absolute;
+            top: 40%;
+            margin-top: -100px;
+            right: 1%;
+            
+            
+            
+        }
+        /* houver é uma subclasse que quando eu usar o efeito sera de quando eu passar o mouse por cima da div vai mudar de cor*/
+        div:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div id="d1">01</div>
+        <div id="d2">02</div> 
+        <div id="d3">03</div> 
+    </nav>
+
+    <figure >
+        <img src="#" title =" Aenean fermentum " alt =" Mauris convallis , leo sollicitudin ">
+        <figcaption > Figura 3 b . Curabitur dapibus , massa sed sollicitudin . </figcaption >
+        </figure >
+    <aside>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam culpa, rem aperiam ut molestias sit error temporibus veritatis nostrum, laudantium tenetur quos ducimus. Dolorem aliquid adipisci corporis excepturi maiores voluptatibus.</p>
+    </aside>
+    
+ 
+</body>
+</html>
