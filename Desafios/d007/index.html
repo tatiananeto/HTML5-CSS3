@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+   <h1>imagens dinamicas</h1> 
+   <p>tente abrir a imagem em tamanhos diferentes</p>
+   <picture>
+        
+        <source media="(max-width: 750px)" srcset="imagens/selva-300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/selva-700.jpg" type="image/jpg">
+        <img src="imagens/selva-950.jpg" alt="imagem flexivel">
+   </picture>
+   <h1> inserindo Audio</h1>
+   <audio preload="metadata" autoplay controls loop>
+
+    <source src="audio/y2mate.com - Anna Joyce  Já Não Cabe Vídeo Oficial.mp3" type="audio/mpeg">
+    <p>Infelizmente o seu navegador não consegue reproduzir áudio. <a href="audio/y2mate.com - Anna Joyce  Já Não Cabe Vídeo Oficial.mp3">Clique aqui para baixar o arquivo em MP3</a></p>
+   </audio>
+   <h1>inserindo video</h1>
+   <video width="600" poster="imagens/praia1.jpg" controls autoplay loop >
+    <source src="midia/Pexels Videos 1550080.mp4" type="video/mp4">
+    <source src="midia/Pexels Videos 1550080.mkv" type="video/mkv">
+   </video>
+</body>
+</html>
