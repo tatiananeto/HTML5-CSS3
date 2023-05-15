@@ -1,11 +1,9 @@
 *{
    
     box-sizing:border-box;
-margin: auto;
+    margin: auto;
     
 }
-
-
 
 .main{
     background-color: #cfcfcf;
@@ -37,6 +35,12 @@ input[type=text]{
     
 }
 
+input[type=text]:focus{
+   background-color: #d6011a64;
+    
+}
+
+
 label{
     padding: 12px 12px 12px 0;
     display: inline-block;
@@ -55,8 +59,9 @@ input[type=submit]{
     cursor: pointer;
     float:right;
     position: relative;
-    top: -20px;
+    top: -30px;
     margin-right: 30px;
+    
    
 }
 
@@ -69,7 +74,7 @@ input[type=reset]{
     cursor: pointer;
     float:right;
     position: relative;
-    top: -20px;
+    top: -30px;
     margin-right: 30px;
    
 }
@@ -77,11 +82,16 @@ input[type=reset]{
 input[type=submit]:hover{
    background-color: #d6011a;
    color: #cfcfcf;
+   border-radius: 4px;
+   height: 40px;
+   
 }
 
 input[type=reset]:hover{
     background-color: #d6011a;
     color: #cfcfcf;
+    border-radius: 4px;
+    height: 40px;
 }
 
 .cabecalho{
@@ -167,18 +177,6 @@ h3{
     
 }
 
-.colunas {
-    clear: both;
-    float: left;
-  }
-  
-  .rotulos {    
-      width: 20%;    
-  }
-  
-  .caixas {    
-      width: 55%;    
-  }
   .f{
     position:relative;
     left: 12px;
@@ -194,18 +192,6 @@ h3{
     width: 70%;
   }
 
-  .colunas::after{
-    content: ":";
-    display: flexbox;
-    clear: both;
-  }
-
-  @media screen and (max-width: 600px){
-    .rotulos, .caixas{
-        width: 100%;
-        margin-top: 0;
-    }
-    
-}
+  
 
 
