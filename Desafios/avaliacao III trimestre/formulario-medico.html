@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha médica</title>
+    <link rel="stylesheet" href="formulario-medico.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <img src="imagens/clip1.png" alt="">
+    </div>
+    
+    <div class="main">
+        
+        <div class="conteudo">
+            
+            <form action="#">
+                <div class="colunas">
+                    <br><br>
+                <h3>INFORMAÇÕES PESSOAIS</h3>
+                <div class="barra"></div>
+                <div class="infor">
+
+                        <div class="rotulos">
+                            <label for="nome-id">Nome: </label>
+                        </div>
+
+                        <div class="caixas">
+                            <input type="text" name="nome" id="nome-id" placeholder="Digite o seu nome">
+                        </div>
+
+                        <div class="rotulos">
+                            <label for="endereco-id">Endereço: </label>
+                         </div>
+
+                        <div class="caixas">
+                            <input type="text" name="endereco" id="endereco-id" placeholder="Município, Distrito, Bairro, Rua, Casa nº:..">
+                        </div>
+
+                        <div class="rotulos">
+                            <label for="cidade-id">Cidade: </label>
+                        </div>
+
+                        <div class="caixas">
+                            <input type="text" name="cidade" id="cidade-id">
+                        </div>
+                
+                    <p>...mais informações pessoais...</p>
+                </div>
+                </div>
+                <br><br>
+
+                <div class="colunas">
+                
+                <h3>HISTÓRICO MÉDICO</h3>
+                <div class="barra1"></div>
+                <div class="historico">
+                        
+                        <div class="rotulos">
+                            <label for="febre-id">Febre </label>
+                        </div>
+
+                        <div class="caixas">
+                            <input type="checkbox" name="doenca" id="febre-id">
+                        </div>
+                
+                        <div class="rotulos">
+                            <label for="tontura-id">Tontura </label>
+                        </div>
+
+                        <div class="caixas">
+                            <input type="checkbox" name="doenca" id="tontura-id">
+                        </div>
+
+                        <div class="rotulos">
+                            <label for="espirros-id">Espirros </label>
+                        </div>
+
+                        <div class="caixas">
+                            <input type="checkbox" name="doenca" id="espirros-id">
+                        </div>
+
+                        <div class="rotulos">
+                            <label for="vomito-id">Vómitos </label>
+                        </div>
+
+                        <div class="caixas">
+                            <input type="checkbox" name="doenca" id="vomito-id">
+                        </div>
+
+                    <p>...mais detalhes do histórico médico...</p>
+                </div>
+                </div>
+                <br><br>
+                <div class="colunas">
+                <h3>OPÇÕES</h3>
+                <div class="barra2"></div>
+                <div class="opcoes">
+
+                        <select name="opcao" id="opcao">
+                            <option value="nenhum">Nenhum</option>
+                            <option value="cd">Cardíaco</option>
+                            <option value="hp">Hipertenso</option>
+                            <option value="db">Diabético</option>
+                        </select>
+                </div>
+                </div>
+                <br><br>
+
+                <div class="colunas">
+                <h3>MEDICAÇÃO ACTUAL</h3>
+                <div class="barra3"></div>
+
+                <div class="medicacao">
+        
+                    <P>...actualmente faz uso de algum medicamento?</P>
+                       
+                        <div class="rotulos">
+                            <label for="sim-id">Sim </label>
+                        </div>
+
+                        <div class="caixas">
+                            <input type="radio" name="op" id="sim-id" value="sim">
+                        </div>
+
+                        <div class="rotulos">
+                            <label for="nao-id">Não </label>
+                        </div>
+
+                        <div class="caixas">
+                            <input type="radio" name="op" id="nao-id" value="nao">
+                        </div>
+
+                    <p>...Se faz uso de algum medícamento, informe-o no espaço abaixo:</p>
+                        
+                        <textarea name="msg" id="" cols="100" rows="20"></textarea>
+                </div>
+                </div>
+
+                <div class="colunas">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Sair">
+                </div>
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

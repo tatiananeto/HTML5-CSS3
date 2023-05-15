@@ -1,0 +1,144 @@
+*{
+   
+    box-sizing:border-box;
+}
+
+.main{
+    background-color: #cfcfcf;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;      
+}
+
+.conteudo{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.55);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;   
+}
+
+input[type=text], select, textarea{
+    width: 85%;
+    padding: 12px;
+    border: 1px solid  #cfcfcf;
+    border-radius: 4px;
+}
+
+label{
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: #d6011a;
+    font-weight: bold;
+}
+
+input[type=submit], [type=reset]{
+    background-color: #ece9d8;
+    color:#d6011a; 
+    padding: 5px 40px;
+    border: 1px solid  #cfcfcf ;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 40px; 
+}
+
+input[type=submit]:hover{
+   background-color: #d6011a;
+   color: #cfcfcf;
+}
+
+input[type=reset]:hover{
+    background-color: #d6011a;
+    color: #cfcfcf;
+}
+
+.cabecalho{
+    text-align: center;
+    position: relative;
+    top: 40px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+img{
+    position: relative;
+   
+}
+.infor{
+   
+    background: url(imagens/informacao1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #ece9d8;
+    padding: 10px;
+}
+
+.historico{
+    background: url(imagens/marcar.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #ece9d8;
+    padding: 10px;
+}
+
+.opcoes{
+    background-color: #ece9d8;
+    padding: 10px; 
+}
+
+.medicacao{
+    background: url(imagens/blood_platelets-03.png);
+    background-repeat: no-repeat;
+    background-color: #ece9d8;
+    padding: 10px;
+    background-position: top right;
+   
+  
+}
+.barra{
+    border: 5px solid #d6011a;
+    margin: 0;
+    padding: 0;
+    width: 240px;
+}
+
+.barra1{
+    border: 5px solid #d6011a;
+    margin: 0;
+    padding: 0;
+    width: 192px;
+}
+
+.barra2{
+    border: 5px solid #d6011a;
+    margin: 0;
+    padding: 0;
+    width: 80px;
+}
+
+.barra3{
+    border: 5px solid #d6011a;
+    margin: 0;
+    padding: 0;
+    width: 205px;
+}
+
+
+
+h3{
+    background-color: #ece9d8;
+    padding: 0;
+    margin: 0;
+    display: inline;
+    
+}
+
+
